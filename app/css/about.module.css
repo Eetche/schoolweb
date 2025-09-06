@@ -1,0 +1,31 @@
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeImgContainer {
+    width: auto;
+    height: auto;
+}
+
+.welcomeImg {
+    filter: brightness(0.3);
+    max-width: 1000px;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.sloganContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.slogan {
+    text-align: center;
+}

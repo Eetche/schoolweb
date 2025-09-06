@@ -1,9 +1,12 @@
-import Header from "./components/Header";
+
+import Welcome from "./components/Welcome";
+import About from "./components/About"
 
 export default function Home() {
   return (
     <main>
-      <Header></Header>
+      <Welcome></Welcome>
+      <About></About>
     </main>
   );
 }
